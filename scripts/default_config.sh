@@ -42,7 +42,7 @@ function customize_image() {
     # install graphics and desktop
     apt-get install -y \
     plymouth-theme-ubuntu-logo \
-    ubuntu-gnome-desktop \
+    tasksel install xubuntu-desktop \
     ubuntu-gnome-wallpapers
 
     # useful tools
